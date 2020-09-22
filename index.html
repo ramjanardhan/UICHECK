@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Partner-portal</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/bootstrap-float-label.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+      integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+      integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+      crossorigin="anonymous"
+    ></script> -->
+    
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<script>
+function alertscreenbtnback()
+{
+  $("#AlertModal").hide();
+}
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<!-- <script>
+
+  function displayOtpScreen(event) {
+      var loginByPassword = document.getElementById("login-by-password");
+      var loginByOTP = document.getElementById("login-by-otp");
+      event.preventDefault()
+      loginByPassword.classList.add("hide");
+      loginByOTP.classList.remove("hide");
+  }
+
+  function displayMobileTextBox() {
+      var emailTextBox = document.getElementById("emailTextBox");
+      var mobileTextBox = document.getElementById("mobileTextBox");
+      emailTextBox.classList.add("hide");
+      mobileTextBox.classList.remove("hide");
+  }
+
+  function displayEmailTextBox() {
+      var emailTextBox = document.getElementById("emailTextBox");
+      var mobileTextBox = document.getElementById("mobileTextBox");
+      emailTextBox.classList.remove("hide");
+      mobileTextBox.classList.add("hide");
+  }
+
+  function displaySignIn() {
+      var loginByPassword = document.getElementById("login-by-password");
+      var loginByOTP = document.getElementById("login-by-otp");
+      loginByPassword.classList.remove("hide");
+      loginByOTP.classList.add("hide");
+  }
+
+  function displayBackOTPScreen() {
+      var enterOtpscreen = document.getElementById("enter-otp-screen");
+      var loginByOTP = document.getElementById("login-by-otp");
+      enterOtpscreen.classList.add("hide");
+      loginByOTP.classList.remove("hide");
+  }
+
+  function displayOtpTextBox() {
+      var enterOtpscreen = document.getElementById("enter-otp-screen");
+      var loginByOTP = document.getElementById("login-by-otp");
+      event.preventDefault();
+      enterOtpscreen.classList.remove("hide");
+      loginByOTP.classList.add("hide");
+  }
+</script> -->
+  <link rel="stylesheet" href="styles.2ff281b99299fe258eb9.css"></head>
+  <body>
+    <app-root></app-root>
+  <script src="runtime-es2015.0272a4edba37afaa98c8.js" type="module"></script><script src="polyfills-es2015.bce945d7d9edd0cad63a.js" type="module"></script><script src="runtime-es5.f567e489a73fb9c1199f.js" nomodule defer></script><script src="polyfills-es5.bfe823d1f64013aedd7d.js" nomodule defer></script><script src="main-es2015.16a47322aefa1b17ef02.js" type="module"></script><script src="main-es5.a7d89d3ef943797a27ca.js" nomodule defer></script></body>
+</html>
